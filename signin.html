@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="loginin-container">
+      <div class="loginin-forms-container">
+        <div class="loginin-signin-signup">
+          <form action="./afterSignIn.html" method="get" class="loginin-form-signin">
+            <h2 class="loginin-title">Sign in</h2>
+            <div class="loginin-input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="loginin-input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="loginin-btn solid" />
+            <p class="loginin-social-text">Or Sign in with social platforms</p>
+            <div class="loginin-social-media">
+              <a href="#" class="loginin-social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="loginin-social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="loginin-form-signup">
+            <h2 class="loginin-title">Sign up</h2>
+            <div class="loginin-input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="loginin-input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="loginin-input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="loginin-btn" value="Sign up" />
+            <p class="loginin-social-text">Or Sign up with social platforms</p>
+            <div class="loginin-social-media">
+              <a href="#" class="loginin-social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="loginin-social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="loginin-panels-container">
+        <div class="loginin-panel loginin-left-panel">
+          <div class="loginin-content">
+            <h3>New here ?</h3>
+            <p>
+              Join us today and start your journey towards energy efficiency. Simply fill in your details, and you'll be on your way to making informed decisions and contributing to a greener future.
+            </p>
+            <button class="loginin-btn loginin-transparent" id="loginin-sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="loginin-image" alt="" />
+        </div>
+        <div class="loginin-panel loginin-right-panel">
+          <div class="loginin-content">
+            <h3>One of us ?</h3>
+            <p>
+              Log in now to continue your journey with us and make the most of the resources and support available to you.
+            </p>
+            <button class="loginin-btn loginin-transparent" id="loginin-sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/register.svg" class="loginin-image" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
